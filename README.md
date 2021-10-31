@@ -17,9 +17,8 @@ To run you code simply use:
 ```
 SNOBOL4 00_HELLO.SNO /Q
 ```
-
-![DOSBOX](https://github.com/James-P-D/SNOBOLDump/blob/master/dosbox.png)
-![Screenshot](https://github.com/James-P-D/Maze/blob/master/screenshot.png)
+          
+![DOSBOX](https://github.com/James-P-D/SNOBOLDump/blob/main/dosbox.png)
 
 ## Contents
 
