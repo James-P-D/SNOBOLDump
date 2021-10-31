@@ -1,0 +1,33 @@
+* output some integers
+	OUTPUT = 42					
+	OUTPUT = -825
+	OUTPUT = 1234567
+	OUTPUT = 2 * (10 + 4)
+
+* outputs 4 since we have no floating point variables in this Snobol implementation
+	OUTPUT = 9 / 2
+
+* output some strings	
+	OUTPUT = 'STRING LITERAL'
+	OUTPUT = "So is this"
+	OUTPUT = 'This contains "quotes"'
+
+* Snobol automatially converts between types!
+	OUTPUT = 14 + '54'
+
+* And we can concatonate strings
+	OUTPUT = 'CONCAT' 'ENATION'
+	OUTPUT = 'ONE,' 'TWO,' 'THREE'
+	OUTPUT = 'ONE PLUS TWO IS ' (1 + 2)
+	
+* Variables are easy to create
+	A = "foo"
+	OUTPUT = A
+	OUTPUT = A A
+
+* Variables are mutable	
+	A = "bar"
+	OUTPUT = A
+
+
+END

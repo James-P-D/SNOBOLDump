@@ -1,0 +1,33 @@
+* Create a loop:
+		N = 0
+START	N = N + 1
+		OUTPUT = N
+* Compare N != 5 and if process if 'S'uccessful, jump to START		
+		NE(N, 5)	:S(START)
+DONE	OUTPUT = 'COMPLETE'
+
+* Lots more conditionals for..
+* IDENT(S,T)       S and T are identical.
+* DIFFER(S,T)      S and T are different.
+* EQ(X,Y)          Integers X and Y are equal.
+* NE(X,Y)          Integers X and Y are not equal.
+* GE(X,Y)          Integer X is greater than or equal to Y.
+* GT(X,Y)          Integer X is greater than Y.
+* LE(X,Y)          Integer X is less than or equal to Y.
+* LT(X,Y)          Integer X is less than Y.
+* INTEGER(X)       X is an integer, or a string which can be converted to an integer.
+* LGT(S,T)         String S is lexically greater than string T using a character-by-character comparison.
+
+* ..And some useful functions:
+* DATE()              Return current date and time as a string.
+* DUPL(S,N)           Duplicate string S, N times.
+* REMDR(X,Y)          Produce the remainder (modulus) of X / Y.
+* REPLACE(S1,S2,S3)   Return string S1 after performing the
+*                     character replacements specified by strings
+*                     S2 and S3.  S2 specifies which characters to
+*                     replace, and S3 specifies what to replace
+*                     them with.
+* SIZE(S)             Return the number of characters in string S.
+* TRIM(S)             Return string S with trailing blanks removed.
+
+END

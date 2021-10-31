@@ -1,0 +1,6 @@
+* Pattern matching!
+        'BLUEBIRD' 'BIRD'   :S(SUC1)
+        OUTPUT = 'FAILURE'  :S(DONE1)
+SUC1	OUTPUT = 'SUCCESS'
+DONE1   OUTPUT = 'COMPLETE' 
+END
