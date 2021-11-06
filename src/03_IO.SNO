@@ -1,7 +1,10 @@
 * Nothing terribly interesting here. File I/O, writing to printer, etc.
 * https://www.snobol4.org/docs/burks/tutorial/ch3.htm
+        INPUT('INPUT',1,,'CON')
 		OUTPUT = "What is your name?"
-		INPUT('READLINE', 1, , 'con')
-		NAME_IN = READLINE
-		OUTPUT = "hello, " NAME_IN
+        NAME_IN = INPUT
+		OUTPUT = "What is your age?"
+        AGE_IN = INPUT
+        OUTPUT = "hello, " NAME_IN
+        OUTPUT = "You are " AGE_IN
 END
