@@ -5,7 +5,7 @@ Dumping ground for learning SNOBOL
 
 [SNOBOL](https://en.wikipedia.org/wiki/SNOBOL) (StriNg Oriented and symBOlic Language) is an old, and largely forgotten programming language designed for manipulating strings.  
 
-To run SNOBOL, download the compiler from [Viktors Berstis' website](http://berstis.com/s4ref/snobol4.htm) and then install [DOSBOX](https://sourceforge.net/projects/dosbox/files/latest/download).  
+To run SNOBOL, download the interpreter from [Viktors Berstis' website](http://berstis.com/s4ref/snobol4.htm) and then install [DOSBOX](https://sourceforge.net/projects/dosbox/files/latest/download).  
 
 From DOSBOX you will first need to mount the folder containing your SNOBOL code:
 
